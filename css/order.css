@@ -1,0 +1,73 @@
+.order INPUT, .order TEXTAREA {
+	width: 500px;
+	border: 1px solid #AAAAAA;
+	color: #4f3d08;
+	font-size: 14pt;
+	height: auto;
+	padding: 2px;
+}
+
+.order TEXTAREA {
+	height: 100px;
+}
+
+.description {
+	width: 550px;
+}
+
+.params INPUT {
+	width: auto;
+}
+
+.order LABEL {
+	font-size: 12px;
+}
+
+.params LABEL {
+	font-size: 12px;
+}
+
+.succ_order {
+	margin: auto;
+	font-size: 15px;
+	width: 300px;
+	text-align: center;
+}
+
+#succ_order_back {
+	margin: 20px auto;
+	display: block;
+	width: 200px;
+	font-size: 15px;
+}
+
+.succ_a {
+	text-align: center;
+}
+
+#order_submit_button {
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+
+#go_orders_btn {
+	margin: 20px 10px 0px 300px;
+}
+
+.other_text {
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+#comment {
+	height: 50px;
+}
+
+.page_title {
+	text-align: center;
+}
+
+#succ_order_manager {
+	margin: 0px auto 20px auto;
+}

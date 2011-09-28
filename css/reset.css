@@ -1,0 +1,116 @@
+/* 
+    Document   : reset
+    Created on : Jan 10, 2011, 3:55:32 PM
+    Author     : Oksana
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+* {
+	z-index: 10;
+}
+
+HTML, BODY {
+    height:100%;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #3c3c3c;
+}
+
+A {
+	color: #3c3c3c;
+}
+
+BODY {
+	background-color: #ffefc1;
+/*	background-color: white;*/
+}
+
+A IMG {
+  border: none;
+  margin:0;
+  padding:0;
+}
+
+.hide {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+TABLE TD {
+	vertical-align: top;
+}
+
+H2 {
+	padding: 20px 0px 15px 0px;
+	display: block;
+	color: #3C3C3C;
+	font-size: 16px;
+}
+
+H3 {
+	font-size: 14px;
+	margin: 10px 0px 5px 0px;
+}
+
+H4 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+H1 {
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px 0px 15px 0px;
+	text-align: left;
+}
+
+H1, H2, H3 {
+	color: #6A5406;
+}
+
+.text {
+	font-size: 12px;
+}
+
+P {
+	margin: 0.5em 0 1em;
+}
+
+A:hover {
+	text-decoration: none;
+}
+
+TD {
+	padding-bottom:  10px;
+}
+
+label {
+	margin-right: 5px;
+}

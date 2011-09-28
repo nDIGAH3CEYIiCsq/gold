@@ -1,0 +1,7 @@
+	/**
+ * Validation
+ * @version 1.0.1
+ */
+INPUT.error_selected, SELECT.error_selected, TEXTAREA.error_selected {
+	border: 1px solid red;
+}

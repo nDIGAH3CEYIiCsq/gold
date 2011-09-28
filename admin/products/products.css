@@ -1,0 +1,19 @@
+#products_form {
+	font-size: 12px;
+}
+
+#products_form INPUT {
+	width: 300px;
+	margin-top: 1px;
+}
+
+#products_form SELECT {
+	width: 105px;
+}
+
+#products_form DIV {
+	margin-bottom: 10px;
+}
+LABEL, INPU, SELECT, A {
+	font-size: 11px;
+}

@@ -1,0 +1,27 @@
+/**
+ * ContextMenu
+ * @version 1.0.1
+ */
+#context_menu {
+	display: none;
+	background-color: white;
+	font-size: 11px;
+	border: 1px solid #C0C0C0;
+	position: absolute;
+	z-index: 10;
+}
+
+#context_menu A {
+	padding: 2px 25px 3px 15px;
+	display: block;
+	color: black;
+}
+
+#context_menu A:hover {
+	background-color: #E5E5E5;
+	text-decoration: none;
+}
+
+#context_menu .bold {
+	font-weight: bold;
+}

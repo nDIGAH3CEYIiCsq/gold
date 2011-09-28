@@ -1,0 +1,28 @@
+.quick_order_link {
+	display: none;
+	margin: 2px 0px 0px 45px;
+	position: absolute;
+	color: #8f7155;
+	text-decoration: none;
+}
+
+.quick_order_show {
+	display: block;
+}
+
+.item {
+	width: 160px;
+	height: 260px;
+	float: left;
+	margin: 0px 5px 10px 0px;
+	color: #222222;
+	font-family: Arial;
+	font-size: 12px;
+	border: 1px solid #e5e5e5;
+	padding-left: 5px;
+}
+
+.product_prices {
+	float: left;
+	width: 60px;
+}

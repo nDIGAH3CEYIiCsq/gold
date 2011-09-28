@@ -1,0 +1,25 @@
+.registration_form {
+	margin: auto;
+	width: 400px;
+	display: block;
+}
+
+.registration_form H1 {
+	text-align: center;
+}
+
+.registration_form INPUT {
+	width: 268px;
+}
+
+#enter_btn {
+	width: 274px;
+}
+
+.fields_spacing {
+	height: 10px;
+}
+
+#captcha {
+	margin-bottom: 10px;
+}

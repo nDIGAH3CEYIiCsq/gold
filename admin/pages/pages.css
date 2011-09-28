@@ -1,0 +1,198 @@
+/**
+ * Pages
+ * @version 1.0.4
+ */
+.smallbutton {
+	font-size: 10px;
+}
+
+#pages_table {
+	width: 100%;
+}
+
+#pages_menu {
+	width: 300px;
+	vertical-align: top;
+	padding-right: 5px;
+}
+
+#pages_content {
+	vertical-align: top;
+	padding-left: 5px;
+}
+
+#menu {
+	width: 300px;
+}
+
+#menu A {
+	display: block;
+	padding: 0px 3px 0px 12px;
+	background: url("closed.png") 0px 6px no-repeat;
+}
+
+#menu A:hover {
+	background-color: #e3f1fa;
+	text-decoration: none;
+}
+
+#menu A.tree_item_final {
+	background-image: url("empty.png");
+}
+
+#menu A.tree_item_opened, #menu A.tree_item_locked {
+	background-image: url("opened.png");
+}
+
+#menu A.tree_item_selected {
+	background-color: #e3f1fa;
+}
+
+#menu DIV {
+	line-height: 20px;
+}
+
+#menu DIV.sub {
+	padding-left: 13px;
+	display: none;
+}
+
+#add_dialog, #pages_editor, #params, #param_template, #menu_item {
+	display: none;
+}
+
+#add_dialog TABLE {
+	width: 100%;
+	margin: auto;
+}
+
+#add_dialog INPUT {
+	width: 100%;
+}
+
+#pages_editor {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+}
+
+#pages_editor TEXTAREA {
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+
+#params {
+	margin-top: 1em;
+}
+
+#params li .ui-icon-close {
+	float: left;
+	margin: 0.4em 0.2em 0 0;
+	cursor: pointer;
+}
+
+.param_name {
+	width: 100%;
+}
+
+.versions {
+	margin-bottom: 10px;
+}
+
+.versions TD {
+	padding: 2px 15px 2px 0px;
+}
+
+.date {
+	font-weight: bold;
+	margin: 10px 0px 5px 0px;
+	font-size: 13px;
+}
+
+TABLE.info_table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+TABLE.info_table INPUT {
+	border: none;
+	width: 100%;
+}
+
+.pagination {
+	margin-top: 10px;
+}
+
+#pages_filter {
+	font-size: 11px;
+	width: 295px;
+	margin-bottom: 5px;
+}
+
+.versions_filter {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.versions_filter DIV {
+	padding: 3px 0px 4px 0px;
+}
+
+#full_field {
+	height: 100%;
+}
+
+.pages_list TABLE {
+	width: 100%;
+	margin: 5px 0px;
+}
+
+.pages_list TABLE TH {
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+
+.pages_list TABLE TD LABEL {
+	display: block;
+}
+
+.pages_list TABLE .name_row {
+	text-align: left;
+	width: 100%;
+}
+
+.pages_list TABLE .name_row BUTTON {
+	margin-left: 20px;
+}
+
+.pages_list #name {
+	width: 100%;
+}
+
+.pages_list #trim {
+	width: 40px;
+}
+
+.pages_list #file {
+	width: 400px;
+}
+
+.pages_list .shift_top {
+	margin-top: 5px;
+}
+
+#collapse {
+	width: 5px;
+}
+
+#collapse INPUT {
+	font-size: 9px;
+	width: 10px;
+	padding: 0px;
+	height: 150px;
+}

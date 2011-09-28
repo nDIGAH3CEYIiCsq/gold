@@ -1,0 +1,12 @@
+.pagination {
+	text-align: center;
+	padding-top:14px;
+}
+
+.last {
+	padding-bottom: 20px;
+}
+
+.pagination_count {
+	font-weight: bold;
+}

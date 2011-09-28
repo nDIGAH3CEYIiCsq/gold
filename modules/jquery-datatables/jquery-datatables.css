@@ -1,0 +1,70 @@
+.delete_column {
+	background-image: url("/modules/jquery-datatables/images/delete.png");
+	background-position: 0px 0px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+}
+
+.delete_column:hover {
+	background-image: url("/modules/jquery-datatables/images/delete.png");
+	background-position: 15px 0px;
+}
+
+.delete_column DIV, .detail_column DIV, .edit_column DIV, .cancel_column DIV, .save_column DIV {
+	display: none;
+}
+
+.detail_column {
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin: auto;
+}
+
+.detail_close {
+	background-image: url("/modules/jquery-datatables/images/detail.png");
+	background-position: 0px 0px;
+}
+
+.detail_open {
+	background-image: url("/modules/jquery-datatables/images/detail.png");
+	background-position: 20px 0px;
+}
+
+.edit_column, .save_column, .cancel_column {
+	background-position: 0px 0px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+}
+
+.edit_column:hover, .save_column:hover, .cancel_column:hover {
+	background-position: 15px 0px;
+}
+
+.edit_column {
+	background-image: url("/modules/jquery-datatables/images/edit.png");
+}
+
+.edit_column:hover {
+	background-image: url("/modules/jquery-datatables/images/edit.png");
+}
+
+.save_column {
+	background-image: url("/modules/jquery-datatables/images/save.png");
+}
+
+.save_column:hover {
+	background-image: url("/modules/jquery-datatables/images/save.png");
+}
+
+.cancel_column {
+	background-image: url("/modules/jquery-datatables/images/cancel.png");
+}
+
+.cancel_column:hover {
+	background-image: url("/modules/jquery-datatables/images/cancel.png");
+}

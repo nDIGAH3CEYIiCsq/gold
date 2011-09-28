@@ -1,0 +1,25 @@
+/**
+ * OptionLinks
+ * @version 1.0.1
+ */
+A.option_link {
+	padding: 3px 6px 3px 6px;
+	margin: 0px 2px 0px 2px;
+	text-decoration: underline;
+}
+
+A.option_link:hover {
+	text-decoration: none;
+}
+
+A.option_link:hover, A.option_link_selected {
+	background-color: #EEEEEE;
+}
+
+A.option_link_selected {
+	color: black;
+}
+
+A.option_link_selected:hover {
+	text-decoration: none;
+}

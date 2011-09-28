@@ -1,0 +1,116 @@
+.basket INPUT {
+	width: 25px;
+}
+
+.basket SELECT {
+	width: 130px;
+}
+
+.basket_delete_link {
+	text-align: right;
+	font-weight: bold;
+	color: #676767;
+}
+
+.basket {
+	width: 100%;
+}
+
+.basket_sum {
+	margin: 10px 0px 5px 0px;
+	font-size: 15px;
+}
+
+.basket_sum SPAN {
+	font-weight: bold;
+}
+
+.product_sizes {
+	font-size: 12px;
+}
+
+.delete_btn {
+	background: url('/img/pages/basket/delete.png') 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+
+.delete_btn:hover {
+	background: url('/img/pages/basket/delete-hover.png') 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+
+.product_count, .product_sizes {
+	float: left;
+}
+
+.basket IMG {
+	width: 80px;
+}
+
+.product_count_td INPUT {
+	margin-left: 30px;
+}
+
+.basket_hr {
+	font-size: 0px;
+	height: 1px;
+	background-color: #f1edda;
+	margin: 0px 0px 10px 0px;
+}
+
+.basket THEAD TR {
+	height: 23px;
+	background-color: #f1edda;
+	line-height: 23px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #646055;
+}
+
+#order_link {
+	font-size: 16px;
+	display: block;
+	margin: 0px 0px 0px 550px;
+	font-weight: bold;
+	color: #d64d4d;
+}
+
+#img_td {
+	width: 90px;
+}
+
+#name_td {
+	width: 170px;
+}
+
+#size_td {
+	width: 120px;
+}
+
+#count_td {
+	width: 30px;
+}
+
+#cost_td {
+	width: 85px;
+}
+
+#delete_btn_td {
+	width: 20px;
+}
+
+.basket_white_space {
+	font-size: 0px;
+	height: 10px;
+}
+
+.empty_basket {
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+

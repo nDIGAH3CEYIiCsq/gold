@@ -1,0 +1,102 @@
+.path {
+	margin: 0px 0px 10px 0px;
+}
+
+.path A, .path {
+	color: #4b4a4a;
+	font-size: 11px;
+	margin-top:1px;
+}
+
+#properties_list {
+	line-height: 25px;
+	margin-top: -9px;
+}
+
+.product_h1 {
+	color: black;
+	font-size: 22px;
+	font-weight: normal;
+	text-align: left;
+}
+
+#product_image {
+	border: 1px solid #e5e5e5;
+	width: 387px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.sizes SPAN {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#sizes_list DIV {
+	width: 35px;
+	margin-bottom: 10px;
+	font-size: 11px;
+	float: left;
+}
+
+#sizes_list INPUT {
+	display: block;
+	margin: auto;
+}
+
+#sizes_list LABEL {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.old_price {
+	text-decoration: line-through;
+}
+
+.new_price {
+	background-color: #FFE2A2;
+}
+
+A.product_item_buy_link {
+	font-size: 22px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.product_price_div {
+	font-size: 18px;
+	color: #D9103B;
+	height: 22px;
+	float: left;
+}
+
+.product_price_div SPAN {
+	border-bottom: 1px #D9103B dashed;
+}
+
+.new_mark_img {
+	margin: 165px 0px 0px 185px;
+	position: absolute;
+}
+
+.complect {
+	width: 150px;
+	height: 120px;
+	float: left;
+	margin: 0px 10px 20px 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.complect_price {
+	color: #D9103B;
+	font-size: 17px;
+}
+
+.complect IMG {
+	height: 60px;
+
+}

@@ -1,0 +1,43 @@
+/**
+ * Users
+ * @version 1.0.1
+ */
+#context_menu_edit {
+	font-weight: bold;
+}
+
+.access_show_dialog {
+	display: none;
+}
+
+#access_dialog, #password_dialog, #add_dialog, #edit_dialog, #add_access_expand, #user_item {
+	display: none;
+}
+
+#password_dialog TABLE, #add_dialog TABLE, #edit_dialog TABLE {
+	width: 100%;
+	padding-right: 5px;
+}
+
+#password_dialog INPUT, #add_dialog INPUT, #edit_dialog INPUT {
+	width: 100%;
+}
+
+#add_access_expand {
+	padding-left: 15px;
+	width: 235px;
+}
+
+#pages_content {
+	text-align: center;
+	color: green;
+	padding: 10px;
+}
+
+#context_menu_edit {
+	font-weight: bold;
+}
+
+.dialog_form {
+	margin-top: 7px;
+}

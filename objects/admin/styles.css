@@ -1,0 +1,14 @@
+/**
+ * Access
+ * @version 1.0.1
+ */
+DIV.access {
+	font-family: Verdana, Arial, Tahoma;
+	font-size: 13px;
+	text-align: center;
+}
+
+DIV.access H1 {
+	font-size: 20px;
+	color: red;
+}

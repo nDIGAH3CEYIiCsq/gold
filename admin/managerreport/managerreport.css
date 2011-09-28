@@ -1,0 +1,161 @@
+.details, .details INPUT, .details SELECT {
+	font-size: 11px !important;
+}
+
+.order_items {
+	margin-left: 27px;
+}
+
+.comment {
+	float: left;
+	width: 500px;
+}
+
+#add_buyer_table {
+	margin-top: 10px;
+}
+
+#add_buyer_table TD {
+	vertical-align: top;
+}
+
+#add_buyer_table TH {
+	font-size: 11px;
+	color: #333333;
+}
+
+#add_buyer_table INPUT, #add_buyer_table textarea {
+	text-align: right;
+}
+
+.errors_input {
+	border: 1px solid red;
+}
+
+table tr.row_selected td {
+	background-color: #B0BED9;
+}
+
+#orders_table {
+	margin-top: 20px;
+	font-size: 11px;
+}
+
+.order_items_table {
+	margin: 5px 0px 10px 0px;
+	font-size: 11px;
+}
+
+#orders_table TABLE TR {
+	background-color: white !important;
+}
+
+.order_items_table THEAD TH {
+	background-color: #d6f7e2 !important;
+	font-size: 10px !important;
+}
+
+.add_item_order {
+	margin: 5px 0px;
+}
+
+.add_item_order TD {
+	border: 0px !important;
+	padding: 2px 2px 0px 2px !important;
+}
+
+.add_item_order INPUT {
+	width: 70px;
+}
+
+.add_item_link {
+	margin: 10px 0px 0px 0px;
+	font-weight: bold;
+}
+
+.input_empty {
+	color: #8b8b8b;
+}
+
+.input_filled {
+	color: black;
+}
+
+.add_item_order THEAD {
+	font-size: 10px;
+}
+
+.red {
+	color: red;
+}
+
+.edit_order_address {
+	width: 250px;
+	height: 30px;
+}
+
+.edit_order_delivery_price {
+	width: 50px;
+}
+
+.edit_order_name {
+	width: 150px;
+}
+
+.edit_order_phone {
+	width: 90px
+}
+
+.edit_row, .edit_row INPUT, .edit_row TEXTAREA, .edit_row SELECT {
+	font-size: 11px !important;
+}
+
+.old {
+	display: none;
+}
+
+.save_column, .edit_column {
+	margin-right: 5px;
+}
+
+.edit_row INPUT {
+	text-align: right;
+}
+
+.edit_item_code, .edit_item_price {
+	width: 50px;
+}
+
+.edit_item_model {
+	width: 250px;
+}
+
+.edit_item_size, .edit_item_count {
+	width: 30px;
+}
+
+.option_link {
+	font-size: 11px;
+}
+
+#period_div_set {
+	float: left;
+	overflow: hidden;
+}
+
+A.option_link_selected {
+	font-size: 12px;
+}
+
+#period, #period_set, #status {
+	display: none;
+}
+
+.buyer LABEL {
+	width: 70px;
+	display: block;
+}
+
+.buyer INPUT {
+	width: 400px;
+}

@@ -1,0 +1,56 @@
+/**
+ * Tables
+ * @version 1.0.3
+ */
+TABLE.edit_table {
+	margin: 0px auto;
+}
+
+TABLE.edit_table TD {
+	padding-right: 5px;
+}
+
+TABLE.edit_table INPUT[type="text"] {
+	width: 600px;
+}
+
+TABLE.edit_table SELECT {
+	width: 200px;
+}
+
+TABLE.edit_table TEXTAREA {
+	width: 600px;
+	height: 50px;
+}
+
+TABLE.edit_table .hint {
+	font-size: 80%;
+	color: gray;
+}
+
+TABLE.edit_table .small {
+	font-size: 11px;
+}
+
+.table_buttons {
+	text-align: center;
+	margin-top: 10px;
+	clear: both;
+}
+
+.table_buttons BUTTON {
+	margin: 0px 2px;
+}
+
+#update {
+	display: none;
+	margin-top: 7px;
+	text-align: center;
+	color: green;
+	font-size: 120%;
+	clear: both;
+}
+
+#update_form {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,195 @@
+/**
+ * Common
+ * @version 1.0.2
+ */
+HTML, BODY {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: Verdana, Arial, Tahoma;
+	font-size: 12px;
+	background-color: white;
+}
+
+IMG {
+	border: none;
+}
+
+FORM {
+	margin: 0px;
+	padding: 0px;
+}
+
+TEXTAREA {
+	padding: 0px;
+	margin: 0px;
+}
+
+H1 {
+	font-size: 20px;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+H2, H2 A {
+	font-size: 14px;
+	margin: 0px;
+	color: #0c6695;
+}
+
+A {
+	color: #338050;
+	text-decoration: none;
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+.errors {
+	margin-bottom: 10px;
+	display: none;
+	color: red;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+}
+
+.content_zone {
+	vertical-align: top;
+	padding: 0px 10px 0px 10px;
+	width: 100%;
+	height: 100%;
+}
+
+#header_table, #footer_table {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+#header_table {
+	margin-bottom: -56px;
+	height: 56px;
+	background: url("header.gif");
+}
+
+#footer_table {
+	margin-top: -25px;
+	height: 25px;
+	background-color: #5ca7cc;
+}
+
+#header_left {
+	float: left;
+	width: 56px;
+	height: 55px;
+	background: url("header_left.png");
+}
+
+#header_right {
+	float: right;
+	width: 179px;
+	height: 55px;
+	background: url("header_right.png");
+}
+
+#header_left IMG, #header_right IMG {
+	display: block;
+}
+
+.header_buttons {
+	height: 28px;
+}
+
+.header_buttons A {
+	width: 80px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	padding: 7px 0px;
+}
+
+.header_buttons A:hover {
+	text-decoration: none;
+	color: #0011ff;
+}
+
+.bottom_shadow {
+	height: 35px;
+}
+
+.head_shadow {
+	height: 66px;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+A.small_link {
+	font-size: 10px;
+	position: relative;
+	top: -1px;
+	padding: 1px 5px 1px 5px;
+}
+
+A.small_link:hover {
+	text-decoration: none;
+	background-color: #e3f1fa;
+}
+
+.button_small {
+	font-size: 10px;
+	height: 20px;
+	line-height: 15px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.red {
+	color: red;
+}
+
+.ui-dialog, .ui-tabs {
+	font-size: 11px;
+}
+
+.ui-dialog-content, .ui-tabs-panel {
+	font-size: 12px;
+}
+
+.ui-tabs-panel A {
+	color: #0066ff;
+	font-size: 11px;
+}
+
+.hide {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+#period_div_set {
+	margin: 0px 0px 0px 15px;
+}
+
+#period_div_set SElECT {
+	margin-top: -5px;
+	padding: 0px;
+}

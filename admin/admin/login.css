@@ -1,0 +1,30 @@
+/**
+ * Login
+ * @version 1.0.1
+ */
+H1 {
+	margin-bottom: 15px;
+}
+
+#header_table, #footer_table, .shadow {
+	display: none;
+}
+
+.content_zone {
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.login_form {
+	margin: auto;
+	width: 410px;
+	margin: 0px auto;
+}
+
+.login_form TD {
+	padding: 2px 5px 2px 0px;
+}
+
+.login_form INPUT {
+	width: 250px;
+}

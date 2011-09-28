@@ -1,0 +1,20 @@
+.support_form {
+	margin: auto;
+	width: 563px;
+}
+
+.support_form H1 {
+	text-align: center;
+}
+
+.support_form INPUT, .support_form TEXTAREA {
+	width: 350px;
+}
+
+.support_form TEXTAREA {
+	height: 200px;
+}
+
+#form_btn {
+	width: auto;
+}

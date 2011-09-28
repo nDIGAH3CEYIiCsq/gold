@@ -1,0 +1,48 @@
+.small_td {
+	width: 30px;
+}
+
+#add_order_btn {
+	margin: 0px 0px 10px 0px;
+}
+
+/* Add order */
+#add_order_form INPUT {
+	width: 300px;
+}
+
+#add_order_form SELECT {
+	width: 400px;
+}
+
+#order INPUT {
+	width: 600px;
+}
+
+#order SELECT  {
+	width: 606px;
+}
+
+#products {
+	height: 100px;
+}
+
+#delete_btn {
+	margin-left: 10px;
+}
+
+#article {
+	width: 150px;
+}
+
+#count {
+	width: 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+.rigth {
+	text-align: right
+}

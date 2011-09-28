@@ -1,0 +1,24 @@
+.login_form {
+	margin: auto;
+	width: 430px;
+}
+
+.login_form H1 {
+	text-align: center;
+}
+
+.login_form TABLE TD, .login_form TD {
+	vertical-align: middle;
+}
+
+.login_form INPUT {
+	width: 268px;
+}
+
+#enter_btn {
+	width: 274px;
+}
+
+.login_form TD {
+	padding-bottom:  10px;
+}

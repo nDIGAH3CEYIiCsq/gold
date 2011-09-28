@@ -1,0 +1,23 @@
+/**
+ * Admin
+ * @version 1.0.2
+ */
+.admin_link {
+	padding: 2px;
+	width: 70px;
+	text-align: center;
+	font-size: 9pt;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+}
+
+.admin_link A {
+	font-family: Tahoma;
+	text-decoration: none;
+	color: black;
+}
+
+.admin_link A:hover {
+	text-decoration: none;
+}

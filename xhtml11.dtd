@@ -1,0 +1,10 @@
+<!ENTITY % XHTML.version
+     "-//yoursite//DTD XHTML 1.1 plus Target 1.0//EN" >
+<!ENTITY % xhtml11.mod
+     PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" >
+%xhtml11.mod;
+<!ENTITY % xhtml-target.mod
+     PUBLIC "-//W3C//ELEMENTS XHTML Target 1.0//EN"
+     "http://www.w3.org/TR/xhtml-modularization/DTD/xhtml-target-1.mod" >
+%xhtml-target.mod;

@@ -1,0 +1,12 @@
+.search SELECT {
+	width: 275px;
+}
+
+.search TABLE {
+	width: 450px;
+	margin: 0px auto;
+}
+
+#search_price_max {
+	width: 268px;
+}

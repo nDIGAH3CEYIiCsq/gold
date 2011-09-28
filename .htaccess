@@ -1,0 +1,17 @@
+ErrorDocument 403 /user/index.php?url=403
+
+<Files component.inc.php>
+	Deny from all
+</Files>
+
+<Files config.inc.php>
+	Deny from all
+</Files>
+
+RewriteEngine on
+
+RewriteRule ^$ /user/index.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /user/index.php?url=$1 [L,QSA]

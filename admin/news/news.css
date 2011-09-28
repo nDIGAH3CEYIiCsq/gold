@@ -1,0 +1,137 @@
+/**
+ * News
+ * @version 1.0.2
+ */
+#news_table TABLE {
+	margin-left: 10px;
+}
+
+#news_table TABLE TD {
+	vertical-align: top;
+}
+
+#news_table H2 {
+	font-size: 16px;
+	text-align: center;
+}
+
+.header A {
+	color: #0c6695;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.header A:hover {
+	color: #0066ff;
+	text-decoration: none;
+}
+
+.status {
+	color: #AAAAAA;
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+.status A {
+	color: #C0C0C0;
+	text-decoration: underline;
+}
+
+.status A:hover {
+	color: #0066ff;
+}
+
+.status IMG {
+	display: inline;
+	position: relative;
+	top: 3px;
+	margin-top: -3px;
+}
+
+.status SPAN {
+	margin-right: 5px;
+}
+
+#message, #add_form, #pages_content, #category_dialog {
+	display: none;
+}
+
+.news_buttons {
+	text-align: center;
+	margin-top: 15px;
+}
+
+#add_form {
+	width: 800px;
+	margin: 0px auto 20px auto;
+	font-size: 12px;
+}
+
+#add_form INPUT {
+	width: 500px;
+}
+
+#add_form SELECT {
+	width: 505px;
+}
+
+#add_form TEXTAREA, #category_dialog INPUT {
+	width: 100%;
+}
+
+#add_form DIV {
+	margin-bottom: 10px;
+}
+
+#add_form H2 {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.add_button {
+	margin-left: 2px;
+	padding: 1px;
+}
+
+#files DIV, #links DIV {
+	margin-top: 15px;
+}
+
+#files DIV INPUT, #links DIV INPUT {
+	width: 150px;
+}
+
+#file_item, #link_item {
+	display: none;
+}
+
+#image_div {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.hide {
+	display: none;
+}
+
+#image_exist {
+	margin-top: 20px;
+}
+
+#news_img_delete_link {
+	float: left;
+	display: block;
+	width: 30px;
+
+}
+
+#image {
+	width: 100px;
+	float: left;
+}
+
+.news_files_delete_link {
+	float: left;
+	width: 100px;
+}

@@ -1,0 +1,38 @@
+.account_info_form INPUT {
+	margin-bottom: 3px;
+	width: 300px;
+}
+
+.account_info_form SELECT {
+	width: 206px;
+	margin-bottom: 3px;
+}
+
+.account_info_form {
+	width: 500px;
+	margin: 0px auto;
+}
+
+#day_birth {
+	width: 20px;
+}
+
+#month_birth {
+	width: 80px;
+}
+
+#year_birth {
+	width: 60px;
+}
+
+.small_td {
+	width: 50px;
+}
+
+#clients_accept_filter {
+	width: 80px;
+}
+
+.hide {
+	display: none;
+}
